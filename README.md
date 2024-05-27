@@ -1,5 +1,4 @@
-# RAG-chatbot for a Large Hospital System
-## AI Chatbot for Hospital System
+# AI Chatbot for a Large Hospital System
 
 This AI chatbot is designed to provide quick answers to various questions about a large hospital system, such as:
 
