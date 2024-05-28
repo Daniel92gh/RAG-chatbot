@@ -14,4 +14,4 @@ This **Graph RAG chatbot** is designed to provide quick answers to various quest
 - Which hospital treated the most Cigna patients in 2023?
 - What is the average billing amount for emergency visits by hospital?
 
-This chatbot will utilize **Large Language Models (LLM)** and **Retrieval-Augmented Generation (RAG)** techniques, drawing on various data sources to answer these questions.
+This chatbot utilizes **Large Language Models (LLM)** and **Retrieval-Augmented Generation (RAG)** techniques, drawing on various data sources to answer these questions.
