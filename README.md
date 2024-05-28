@@ -1,6 +1,6 @@
 # AI Chatbot for a Large Hospital System
 
-This AI chatbot is designed to provide quick answers to various questions about a large hospital system, such as:
+This **Graph RAG chatbot** is designed to provide quick answers to various questions about a large hospital system, such as:
 
 - What is the current wait time at XYZ hospital?
 - Which hospital has the shortest wait time right now?
@@ -14,4 +14,4 @@ This AI chatbot is designed to provide quick answers to various questions about 
 - Which hospital treated the most Cigna patients in 2023?
 - What is the average billing amount for emergency visits by hospital?
 
-This chatbot will utilize Large Language Models (LLM) and Retrieval-Augmented Generation (RAG) techniques, drawing on various data sources to answer these questions.
+This chatbot will utilize **Large Language Models (LLM)** and **Retrieval-Augmented Generation (RAG)** techniques, drawing on various data sources to answer these questions.
