@@ -47,7 +47,7 @@ To run this project, follow these steps:
 
 2. **Navigate to the project directory**:
     ```sh
-    cd chatbot-project
+    cd RAG-chatbot
     ```
 
 3. **Set up a virtual environment**:
