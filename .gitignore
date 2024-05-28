@@ -3,3 +3,5 @@ langchain_intro
 env_rag
 .vscode
 zscaler.crt
+__pycache__
+.*__pycache__
