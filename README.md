@@ -26,15 +26,18 @@ This project features a versatile chatbot capable of intelligently selecting the
 - **Function Calling with External APIs**: It can call external APIs to fetch the necessary data.
 - **Cypher Query Generation**: It generates Cypher query languages to extract information from a graph database using LLMs.
 - **RAG Technology for Semantic Search**: It uses Retrieval-Augmented Generation (RAG) technology to perform semantic searches within the vector database.
-- **LLM for Response Generation**: It utilizes LLMS to generate appropriate and coherent responses based on the retrieved information.
+- **LLM for Response Generation**: It utilizes OpenAI LLMs to generate appropriate and coherent responses based on the retrieved information.
 
 ## How It Works
 
 1. **Agent-Based Decision Making**: The chatbot's agent evaluates the user's query and determines the most suitable tool to use.
-2. **External API Calls**: If the query requires data from an external source, the agent will call the relevant API and fetch the data.
-3. **Graph Database Queries**: For queries that can be answered using the graph database, the agent will generate and execute Cypher queries.
-4. **Semantic Search with RAG**: When a semantic search is needed, the agent uses RAG technology to search within the vector database and retrieve the most relevant information.
-5. **Response Generation**: The chatbot then uses the LLM to synthesize the data and generate a well-formed response to the user.
+2. **Retrieval**: This chatbot can retrieve relavant information from both structured and unstructured text sources.<br>
+   2.1. **Structured**: When a semantic search is needed, the agent uses OpenAI embedding models to search within the vector database and retrieve the most relevant information.<br>
+   2.2. **Unstructured**: For queries that can be answered using the graph database, the agent will generate and execute Cypher queries.<br>
+3. **External API Calls**: If the query requires data from an external source, the agent will call the relevant API and fetch the data.
+4. **RAG**: When semantic search or API calling is finished, the agent uses RAG technology to feed the relevant retrieved information and user question into LLM. 
+5. **Response Generation**: The chatbot then uses the LLM to generate a well-formed response based on retrieved information and user question.
+
 
 ## Installation
 
